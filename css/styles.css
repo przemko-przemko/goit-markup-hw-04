@@ -6,7 +6,7 @@
     --outside: #F5F4FA;
     --mailcolor: #757575;
     --social-color: #AFB1B8;
-
+ 
 }
 
 /*global*/
@@ -35,6 +35,7 @@ p {
         sans-serif;
     color: var(--black);
     max-width: 1600px;
+    
 
 }
 
@@ -268,7 +269,7 @@ img {
     margin-right: 0;
 }
 
-.container-list-lorem-items div {
+.container-list-lorem-items >div {
     background-color: var(--outside);
     border-radius: 4px;
     width: 270px;
@@ -568,12 +569,13 @@ img {
     justify-content: center;
 
 }
-
 .svg-icon-social:hover,
-:focus {
+:focus,
+:active {
     border-radius: 50%;
-    background-color: #2196F3;
+    background-color: var(--blue);
     cursor: pointer;
+    fill: var(--white);
 }
 
 .container-firm-title {
@@ -600,7 +602,7 @@ img {
 .container-firm-list-item {
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--social-color);
     box-sizing: border-box;
     border-radius: 4px;
     display: flex;
@@ -623,8 +625,8 @@ img {
 .container-firm-list-item:hover,
 :active,
 :focus {
-    fill: #2196F3;
-    border-color: #2196F3;
+    fill: var(--blue);
+    border-color: var(--blue);
     cursor: pointer;
 
 }
@@ -632,7 +634,7 @@ img {
 .container-firm-list-item svg:hover,
 :active,
 :focus {
-    fill: #2196F3;
+    fill: var(--blue);
 }
 
 .footer>div {
