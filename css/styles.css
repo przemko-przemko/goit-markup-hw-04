@@ -35,7 +35,7 @@ p {
         sans-serif;
     color: var(--black);
     max-width: 1600px;
-    
+
 
 }
 
@@ -192,7 +192,7 @@ img {
 .main-section {
     background:
         linear-gradient(90deg, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%),
-        url(/images/main-section/team.jpg), no-repeat;
+        url(../images/main-section/team.jpg), no-repeat;
 
 }
 
