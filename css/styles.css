@@ -124,6 +124,7 @@ img {
 }
 
 .header-list-item-mailtel-mail:hover,
+:focus,
 :active {
     fill: var(--blue);
     color: var(--blue);
@@ -131,6 +132,7 @@ img {
 }
 
 .header-list-item-mailtel-tel:hover,
+:focus,
 :active {
     fill: var(--blue);
     color: var(--blue);
@@ -142,6 +144,7 @@ img {
 }
 
 .header-list-item-link:hover,
+:focus,
 :active {
     color: var(--blue);
 }
@@ -182,6 +185,7 @@ img {
 }
 
 .main-button:hover,
+:focus,
 :active {
     color: var(--white);
     background-color: var(--blue);
@@ -208,7 +212,8 @@ img {
 }
 
 .container .main-button-active:hover,
-:active{
+:active,
+:focus {
     color: var(--white);
     background-color: var(--blue);
 
@@ -440,6 +445,7 @@ img {
 }
 
 .footer-logo:hover,
+:active,
 :focus {
     color: var(--blue);
 }
@@ -503,6 +509,7 @@ img {
 }
 
 .foot-social-list li:hover,
+:focus,
 :active {
     background-color: var(--blue);
     cursor: pointer;
@@ -534,6 +541,7 @@ img {
 }
 
 .btn-list-item-btn:hover,
+:focus,
 :active {
     background-color: var(--blue);
     color: var(--white);
