@@ -711,6 +711,7 @@ fill: var(--social-color);
 :focus{
 border-radius: 50%;
 background-color:  var(--blue);
+cursor:pointer;
 }
 .svg-social-list li svg:hover,
 :active,
