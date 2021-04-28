@@ -124,16 +124,14 @@ img {
 }
 
 .header-list-item-mailtel-mail:hover,
-:focus,
-:active {
+.header-list-item-mailtel-mail:focus{
     fill: var(--blue);
     color: var(--blue);
 
 }
 
 .header-list-item-mailtel-tel:hover,
-:focus,
-:active {
+.header-list-item-mailtel-tel:focus{
     fill: var(--blue);
     color: var(--blue);
 
@@ -144,8 +142,7 @@ img {
 }
 
 .header-list-item-link:hover,
-:focus,
-:active {
+.header-list-item-link:focus {
     color: var(--blue);
 }
 
@@ -159,7 +156,8 @@ img {
     margin-right: 10px;
 }
 
-.svg-icon:hover {
+.svg-icon:hover,
+.svg-icon:focus {
     fill: var(--blue);
 }
 
@@ -185,8 +183,7 @@ img {
 }
 
 .main-button:hover,
-:focus,
-:active {
+.main-button:focus {
     color: var(--white);
     background-color: var(--blue);
 
@@ -212,8 +209,7 @@ img {
 }
 
 .container .main-button-active:hover,
-:active,
-:focus {
+.container .main-button-active:focus {
     color: var(--white);
     background-color: var(--blue);
 
@@ -438,15 +434,13 @@ img {
 }
 
 .footer-list-item-mailtel:hover,
-:focus,
-:active {
+.footer-list-item-mailtel:focus{
     color: rgba(100%, 100%, 100%, 100%);
 
 }
 
 .footer-logo:hover,
-:active,
-:focus {
+.footer-logo:focus {
     color: var(--blue);
 }
 
@@ -509,8 +503,7 @@ img {
 }
 
 .foot-social-list li:hover,
-:focus,
-:active {
+.foot-social-list li:focus {
     background-color: var(--blue);
     cursor: pointer;
 }
@@ -541,8 +534,8 @@ img {
 }
 
 .btn-list-item-btn:hover,
-:focus,
-:active {
+.btn-list-item-btn:focus
+{
     background-color: var(--blue);
     color: var(--white);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -550,6 +543,8 @@ img {
         0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+
+  
 
 .btn-list-item {
     display: inline-block;
@@ -652,27 +647,28 @@ img {
 
 .container-firm-list-item svg {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 106px;
-    height: 60px;
+     width: 170px;
+    height: 92px; 
+    padding:16px 32px;
     fill: var(--social-color);
+    
+   
 
 
 }
 
-.container-firm-list-item:hover,
-:active,
-:focus {
+.container-firm-list-item:hover
+{
     fill: var(--blue);
     border-color: var(--blue);
     cursor: pointer;
 
 }
 
-.container-firm-list-item svg:hover,
-:active,
-:focus {
+.container-firm-list-item svg:hover
+ {
     fill: var(--blue);
 }
 
@@ -706,14 +702,12 @@ fill: var(--social-color);
 
 }
 
-.svg-social-list li:hover,
-:active{
+.svg-social-list li:hover{
 border-radius: 50%;
 background-color:  var(--blue);
 cursor:pointer;
 }
-.svg-social-list li svg:hover,
-:active{
+.svg-social-list li svg:hover{
     fill: var(--white);
     
 
